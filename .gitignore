@@ -1,0 +1,35 @@
+.metadata
+
+# Ignore build and output folders
+build/
+output/
+
+# Ignore STM32CubeIDE configuration files
+.cproject
+.project
+
+# Ignore STM32CubeIDE generated files
+Core/Inc/main.h
+Core/Src/main.c
+Core/Inc/stm32*_hal_conf.h
+Core/Src/stm32*_hal_msp.c
+Core/Src/syscalls.c
+Core/Src/system_stm32*.c
+Core/Inc/cmsis_os.h
+Core/Src/cmsis_os.c
+Drivers/STM32*_HAL_Driver/Inc/stm32*_hal_conf.h
+Drivers/STM32*_HAL_Driver/Src/stm32*_hal_msp.c
+
+# Ignore OpenOCD and GDB generated files
+.openocd/
+.gdb_history
+
+# Ignore user-specific configuration files
+*.user
+
+# Ignore other common temporary and backup files
+*.bak
+*.swp
+*.swo
+*~
+
