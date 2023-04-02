@@ -1,0 +1,10 @@
+00:44:04 **** Incremental Build of configuration Debug for project l746lab9 ****
+make -j12 all 
+arm-none-eabi-size   l746lab9.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14140	     20	   1700	  15860	   3df4	l746lab9.elf
+Finished building: default.size.stdout
+ 
+
+00:44:04 Build Finished. 0 errors, 0 warnings. (took 160ms)
+
